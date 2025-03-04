@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.Northwind</name>
+    </assembly>
+    <members>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.GetCategories">
+            <summary>
+            Método GET, destinado a busca de todos os registros da tabela Categories.
+            </summary>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.GetCategories(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.ObterPaginado(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método GET, destinado a busca de registros, Categories com paginação.
+            </summary>
+            <param name="pageNo">Número da página que será exibida (default = 1).</param>
+            <param name="pageSize">Quantidade de registros que serão exibidos (default = 20).</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.GetCategoryName(System.String)">
+            <summary>
+            Método GET, destinado a busca de registros.
+            </summary>
+            <param name="categoryName">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.PutCategories(Common.Domain.Logic.Model.CategoriesDto)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="id">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.PostCategories(Common.Domain.Logic.Model.CategoriesDto)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Categories">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.CategoriesController.DeleteCategories(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.GetEmployees(System.Int32)">
+            <summary>
+            Método GET, destinado a busca de registros.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.ObterPaginado(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método GET, destinado a busca de registros, Categories com paginação.
+            </summary>
+            <param name="pageNo">Número da página que será exibida (default = 1).</param>
+            <param name="pageSize">Quantidade de registros que serão exibidos (default = 20).</param>
+            <returns>O envelope JSON correspondente ao resultado da pesquisa.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.PostEmployeesFiltro(Common.Domain.Logic.Model.FiltroEmployeesDto)">
+            <summary>
+            Método POST, destinado a busca de registro por filtro.
+            </summary>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.PutEmployees(Common.Domain.Logic.Model.EmployeesDto)">
+            <summary>
+            Método PUT, destinado a alteração de registros no banco.
+            </summary>
+            <param name="id">Instância em JSON do registro que será alterado.</param>
+            <returns>O envelope JSON com registro alterado.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.PostEmployees(Common.Domain.Logic.Model.EmployeesDto)">
+            <summary>
+            Método POST, destinado a criação de registros.
+            </summary>
+            <param name="Employees">Instância em JSON do registro para inclusão.</param>
+            <returns>O envelope JSON do registro incluso com Chave Primária.</returns>
+        </member>
+        <member name="M:API.Northwind.V1.Controllers.EmployeesController.DeleteEmployees(System.Int32)">
+            <summary>
+            Método DELETE, destinado a exclusão de registros do banco, utilizando o ID.
+            </summary>
+            <param name="id">Chave primária da tabela.</param>
+            <returns>O envelope JSON com registro excluído.</returns>
+        </member>
+    </members>
+</doc>

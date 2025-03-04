@@ -1,0 +1,15 @@
+services:
+
+
+  northwindforward:
+    image: ${DOCKER_REGISTRY-}northwindforward
+    build:
+      context: .
+      dockerfile: src/Backend/Microservices/Forward/API.Northwind/Dockerfile
+
+  northwindkong:
+    image: ${DOCKER_REGISTRY-}northwindkong
+    build:
+      context: .
+      dockerfile: src/Backend/Microservices/kong/k0002/API.Northwind/Dockerfile
+

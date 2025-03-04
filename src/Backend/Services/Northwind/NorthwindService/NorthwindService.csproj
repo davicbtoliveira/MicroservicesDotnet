@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Common.Domain\Common.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Common\Common.Extensions\Common.Extensions.csproj" />
+    <ProjectReference Include="..\..\..\Common\Common.Notification\Common.Notification.csproj" />
+    <ProjectReference Include="..\..\..\Common\Common.UnitOfWork\Common.UnitOfWork.csproj" />
+    <ProjectReference Include="..\..\..\Infra\Northwind\Northwind.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,289 @@
+[
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.Domain.Logic.Model.CategoriesDto, Common.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "PostCategories",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "Common.Domain.Logic.Model.CategoriesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Domain.Logic.Model.CategoriesDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "PutCategories",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "Common.Domain.Logic.Model.CategoriesDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "DeleteCategories",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "GetCategoryName",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories/CategoryName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Domain.Logic.Model.CategoriesDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.CategoriesController",
+    "Method": "ObterPaginado",
+    "RelativePath": "k0002/cotin-northwind/v1/Categories/ListagemCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.UnitOfWork.Collections.IPagedList\u00601[[Common.Domain.Logic.Model.CategoriesDto, Common.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "PutEmployees",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employees",
+        "Type": "Common.Domain.Logic.Model.EmployeesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "PostEmployees",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employees",
+        "Type": "Common.Domain.Logic.Model.EmployeesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "GetEmployees",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.Domain.Logic.Model.EmployeesDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "DeleteEmployees",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "PostEmployeesFiltro",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees/Filtro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtroDto",
+        "Type": "Common.Domain.Logic.Model.FiltroEmployeesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.UnitOfWork.Collections.PagedList\u00601[[Common.Domain.Logic.Model.EmployeesDto, Common.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Northwind.V1.Controllers.EmployeesController",
+    "Method": "ObterPaginado",
+    "RelativePath": "k0002/cotin-northwind/v1/Employees/ListagemEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.UnitOfWork.Collections.IPagedList\u00601[[Common.Domain.Logic.Model.EmployeesDto, Common.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

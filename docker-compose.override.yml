@@ -1,0 +1,22 @@
+services:
+      
+  northwindforward:
+    container_name: northwindforward
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+
+      - ASPNETCORE_HTTP_PORTS=8001
+    ports:
+      - "8001:80"
+
+
+  northwindkong:
+    container_name: northwindkong
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+
+      - ASPNETCORE_HTTP_PORTS=8002
+    ports:
+      - "8002:80"
+
+

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "an2Rc4+dqvw=",
+  "success": true,
+  "projectFilePath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\davic\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.7\\microsoft.aspnetcore.jsonpatch.8.0.7.nupkg.sha512",
+    "C:\\Users\\davic\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.7\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.7.nupkg.sha512",
+    "C:\\Users\\davic\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\davic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\davic\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

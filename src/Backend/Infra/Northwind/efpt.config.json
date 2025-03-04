@@ -1,0 +1,168 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "NorthwindContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data\/Northwind\/Context",
+   "OutputPath": "Data\/Northwind\/Entity",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Northwind",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AutoHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CertificadosDigitais]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerCustomerDemo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerDemographics]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Documentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeesDocuments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeTerritories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EquipeTecnica]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HistoricoAssinaturas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Manuais]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MensagemDocumento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Mensagens]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Notificacao]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificacaoDemandante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificacaoRequerente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Order Details]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Region]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RequestResponseLogger]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Shippers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Sistema]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SQLSessions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Student]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentAdress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Suppliers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Territories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TipoMensagens]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Backend",
+    "\\src\\Backend\\Microservices",
+    "\\src\\Backend\\Microservices\\Forward",
+    "\\src\\Backend\\Microservices\\Forward\\API.Northwind",
+    "\\src\\Backend\\Microservices\\Forward\\API.Northwind\\V1",
+    "\\src\\Backend\\Microservices\\Forward\\API.Northwind\\V1\\Controllers"
+  ],
+  "SelectedNode": "\\src",
+  "PreviewInSolutionExplorer": false
+}

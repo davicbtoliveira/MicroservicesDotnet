@@ -1,0 +1,536 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\COTIN\\ProjetoDotnet\\src\\Samples\\ConsoleAppNorthwindService\\ConsoleAppNorthwindService.csproj": {}
+  },
+  "projects": {
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\Common.Domain.csproj",
+        "projectName": "Common.Domain",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj",
+        "projectName": "Common.Extensions",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\Common.Notification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\Common.Notification.csproj",
+        "projectName": "Common.Notification",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\Common.Notification.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\Common.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\Common.UnitOfWork.csproj",
+        "projectName": "Common.UnitOfWork",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\Common.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.38, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\Northwind.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\Northwind.csproj",
+        "projectName": "Northwind",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\Northwind.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFrameworkCore.UseRowNumberForPaging": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\NorthwindService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\NorthwindService.csproj",
+        "projectName": "NorthwindService",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\NorthwindService.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Domain\\Common.Domain.csproj"
+              },
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Extensions\\Common.Extensions.csproj"
+              },
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\Common.Notification.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.Notification\\Common.Notification.csproj"
+              },
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\Common.UnitOfWork.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Common\\Common.UnitOfWork\\Common.UnitOfWork.csproj"
+              },
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\Northwind.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Infra\\Northwind\\Northwind.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\COTIN\\ProjetoDotnet\\src\\Samples\\ConsoleAppNorthwindService\\ConsoleAppNorthwindService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COTIN\\ProjetoDotnet\\src\\Samples\\ConsoleAppNorthwindService\\ConsoleAppNorthwindService.csproj",
+        "projectName": "ConsoleAppNorthwindService",
+        "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Samples\\ConsoleAppNorthwindService\\ConsoleAppNorthwindService.csproj",
+        "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
+        "outputPath": "D:\\COTIN\\ProjetoDotnet\\src\\Samples\\ConsoleAppNorthwindService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\davic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\NorthwindService.csproj": {
+                "projectPath": "D:\\COTIN\\ProjetoDotnet\\src\\Backend\\Services\\Northwind\\NorthwindService\\NorthwindService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
